@@ -22,6 +22,11 @@ A simplicidade no código refere-se à minimização da complexidade desnecessá
 ### Por que é importante?
 Código complexo pode levar a erros, dificuldades de manutenção e compreensão limitada. A simplicidade, por outro lado, promove uma estrutura mais clara e facilita a colaboração entre desenvolvedores.
 
+### Relação com Maus Cheiros:
+Método longo: Códigos extensos frequentemente carecem de simplicidade. A refatoração para métodos mais curtos (como visto no exemplo) alinha-se com a busca pela simplicidade.
+
+Cirurgia com rifle: A complexidade excessiva pode resultar em mudanças indesejadas, o que a simplicidade visa evitar.
+
 ### Exemplo:
 ```python
 # Código Inicial
@@ -53,6 +58,11 @@ A modularidade envolve a divisão do sistema em módulos independentes e bem def
 
 ### Por que é importante?
 Módulos bem definidos facilitam a compreensão do sistema, reduzem dependências indesejadas e promovem a escalabilidade do software.
+
+### Relação com Maus Cheiros:
+Código duplicado: Módulos bem definidos reduzem a duplicação de código, um mau cheiro notório.
+
+Classe inchada: A modularidade combate classes grandes e complexas, promovendo a criação de classes mais específicas e gerenciáveis.
 
 ### Exemplo:
 ```python
@@ -94,6 +104,11 @@ Boas interfaces definem contratos claros e intuitivos para módulos, classes e f
 ### Por que é importante?
 Interfaces bem projetadas promovem a comunicação eficaz entre componentes, facilitando a manutenção e evitando erros de integração.
 
+### Relação com Maus Cheiros:
+Classes alternativas com diferentes interfaces: Boas interfaces evitam a criação de classes com interfaces inconsistentes ou ambíguas.
+
+Intimidade inapropriada: Interfaces claras reduzem a proximidade excessiva entre diferentes partes do código.
+
 ### Exemplo:
 ```python
 # Código Inicial
@@ -124,6 +139,11 @@ A ausência de duplicidades refere-se à eliminação de código redundante. A r
 ### Por que é importante?
 Código duplicado pode levar a erros difíceis de rastrear e dificulta a atualização consistente do sistema.
 
+### Relação com Maus Cheiros:
+Código duplicado: A ausência de duplicidades diretamente aborda o mau cheiro de código duplicado.
+
+Herança recusada: Reduz a necessidade de duplicar código ao promover a reutilização.
+
 ### Exemplo:
 ```python
 # Código Inicial
@@ -151,6 +171,11 @@ Boa documentação fornece informações claras e úteis sobre o propósito, fun
 
 ### Por que é importante?
 A documentação adequada auxilia desenvolvedores no entendimento do código, facilita a colaboração e promove uma manutenção eficiente.
+
+### Relação com Maus Cheiros:
+Comentários: Uma boa documentação pode substituir ou reduzir a necessidade de comentários em excesso, tornando o código mais legível.
+
+Método longo: Documentar métodos longos é um sinal de falta de clareza e pode indicar a necessidade de refatoração.
 
 ### Exemplo:
 ```python
