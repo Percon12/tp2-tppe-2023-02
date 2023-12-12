@@ -1,5 +1,13 @@
 # Boas Práticas de Código e Refatoração
 
+## Integrantes do grupo
+
+| Nome | Matrícula |
+| -- | -- |
+| Eurico Menezes de Abreu Neto | 200017519 |
+| Felipe Correia Andrade | 180113259 |
+| Mateus Brandão Teixeira | 180127535 |
+
 ## Introdução
 
 O desenvolvimento de software envolve não apenas a criação de código funcional, mas também a adoção de práticas que visam melhorar a legibilidade, manutenibilidade e eficiência do código. Neste contexto, as boas práticas de código e técnicas de refatoração desempenham um papel crucial.
